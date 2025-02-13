@@ -1,9 +1,9 @@
-import { ThreeDots } from 'react-loader-spinner';
+ import ClipLoader from "react-spinners/ClipLoader";
 import styles from './Loader.module.css';
 
 const Loader = () => (
   <div className={styles.loader}>
-    <ThreeDots color="#00BFFF" height={80} width={80} />
+    <ClipLoader color="#00BFFF"  size={80} />
   </div>
 );
 
